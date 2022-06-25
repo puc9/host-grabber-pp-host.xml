@@ -493,4 +493,10 @@
 	<link-attribute>href</link-attribute>
 </host>
 
+<host id="fapello jpg">
+	<domain>fapello.com</domain>
+	<path-pattern>content\/.+_\d+px\.jpg</path-pattern>
+	<link-search-pattern>replace: '_\d+px\.jpg', '.jpg'</link-search-pattern>
+</host>
+
 </root>
